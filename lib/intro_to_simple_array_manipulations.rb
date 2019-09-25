@@ -32,7 +32,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, ele)
-  array.insert (4, ele)
+  array.insert(4, ele)
 end
 
 def using_uniq(array)
@@ -48,7 +48,5 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
-  c = integer
-  array.delete(c)
-  return array
+  array.delete(integer)
 end
